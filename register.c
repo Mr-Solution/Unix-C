@@ -18,12 +18,13 @@ int main(void) {
     *a = 5;
     printf("%d\n",*a);
     struct REG *r;
-    r->integ = 10;
+    struct REG R = {10};
+    r = &R;
     printf("%d\n", r->integ);
     *a = r->integ;
     printf("%d\n", *a);
     r->integ = 0;
-    printf("%d\n", *a);
+    printf("%d\n", r->integ);
     free(a);
     return 0;
 }
