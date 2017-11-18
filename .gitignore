@@ -53,3 +53,4 @@ dkms.conf
 
 # 忽略指定目录和下面所有目录
 /build/**/
+/build/*
