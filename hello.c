@@ -8,5 +8,11 @@
 #include<stdio.h>
 int main() {
     printf("Hello, World!\n");
+    char ch = 100;
+    printf("ch : %c\n",ch);
+    char chx = 'd';
+    printf("chx : %c\n",chx);
+    char chz = 0144;
+    printf("chz : %c\n",chx);
     return 0;
 }
